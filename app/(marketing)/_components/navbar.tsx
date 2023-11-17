@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <div
+    <nav
       className="
         fixed 
         top-0 
@@ -49,6 +49,6 @@ export const Navbar = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
