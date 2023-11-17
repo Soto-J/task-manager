@@ -26,25 +26,11 @@ const Navbar = () => {
           <Logo />
         </div>
 
-        {/* <Button
+        <Button
+          variant="primary"
           size="sm"
-          className="
-            hidden 
-            md:block 
-            md:h-auto 
-            md:rounded-sm 
-            md:px-2
-            md:py-1.5
-          "
+          className="md:h-auto md:rounded-sm md:px-2 md:py-1.5"
         >
-          Create
-        </Button>
-
-        <Button size="sm" className="block rounded-sm md:hidden">
-          <Plus className="h-4 w-4" />
-        </Button> */}
-
-        <Button size="sm" className="md:h-auto md:rounded-sm md:px-2 md:py-1.5">
           <span className="hidden md:block">Create</span>
           <Plus className="h-4 w-4 md:hidden" />
         </Button>
