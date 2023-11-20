@@ -8,9 +8,9 @@ type OrganizationPageProps = {
 
 const OrganizationIdPage = ({ params }: OrganizationPageProps) => {
   return (
-    <div>
+    <main>
       <h1>Organization Page</h1>
-    </div>
+    </main>
   );
 };
 
