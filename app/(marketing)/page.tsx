@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
+import { Poppins } from "next/font/google";
 import { Medal } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import Logo from "@/components/logo";
 
 const headingFont = localFont({ src: "../../public/fonts/font.woff2" });
 
@@ -26,13 +25,13 @@ const MarketingPage = () => {
         <div
           className="
             mb-4 
-            flex 
-            items-center 
-            rounded-full 
-            border 
-            bg-amber-100 
-            p-4 uppercase 
-            text-amber-700 
+            flex
+            items-center
+            rounded-full
+            border
+            bg-amber-100
+            p-4 uppercase
+            text-amber-700
             shadow-sm
           "
         >
@@ -42,10 +41,10 @@ const MarketingPage = () => {
 
         <h1
           className="
-            mb-6 
-            text-center 
-            text-3xl 
-            text-neutral-800 
+            mb-6
+            text-center
+            text-3xl
+            text-neutral-800
             md:text-6xl
           "
         >
@@ -53,15 +52,15 @@ const MarketingPage = () => {
         </h1>
         <div
           className="
-            w-fit 
-            rounded-md 
-            bg-gradient-to-r 
-            from-fuchsia-600 
-            to-pink-600 
+            w-fit
+            rounded-md
+            bg-gradient-to-r
+            from-fuchsia-600
+            to-pink-600
             p-4
-            pb-2 
-            text-3xl 
-            text-white 
+            pb-2
+            text-3xl
+            text-white
             md:text-6xl
           "
         >
